@@ -1,0 +1,35 @@
+{
+  "results": {
+    "XGBoost": {
+      "WAPE": 0.1845,
+      "MAE": 22.3561,
+      "RMSE": 32.2224,
+      "MAPE": 0.1902,
+      "sMAPE": 0.1819
+    },
+    "LightGBM": {
+      "WAPE": 0.1795,
+      "MAE": 21.7548,
+      "RMSE": 31.5167,
+      "MAPE": 0.1866,
+      "sMAPE": 0.1773
+    },
+    "LSTM": {
+      "WAPE": 0.2203,
+      "MAE": 26.689,
+      "RMSE": 38.5378,
+      "MAPE": 0.1989,
+      "sMAPE": 0.2207
+    },
+    "SeasonalNaive": {
+      "WAPE": 0.2407,
+      "MAE": 29.1633,
+      "RMSE": 41.8135,
+      "MAPE": 0.2484,
+      "sMAPE": 0.2314
+    }
+  },
+  "winner": "LightGBM",
+  "horizon": 90,
+  "n_series_evaluated": 257
+}
